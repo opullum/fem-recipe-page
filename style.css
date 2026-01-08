@@ -10,3 +10,16 @@
   --brown-800: #854632;
   --white: #ffffff;
 }
+
+/* Base styling for elements is based on the Mobile (375px) layout provided in the
+initial Figma design file. Adherence to mobile-first practices for web layouts. */
+
+/* Component adjustments for Tablet layout */
+@media (minth-width: 768px) {
+  /* Placeholder media query */
+}
+
+/* Component adjustments for Desktop layout */
+@media (min-width: 1440px) {
+  /* Placeholder media query */
+}
