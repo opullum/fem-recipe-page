@@ -54,18 +54,21 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  background-color: var(--rose-50);
+  border-radius: 12px;
 }
 
 ol,
 ul {
-  list-style-position: inside;
+  list-style-position: outside;
   display: flex;
   flex-direction: column;
+  padding-left: 24px;
   gap: 8px;
 }
 
 li {
-  line-height: 150%;
   padding-left: 8px;
 }
 
@@ -108,6 +111,8 @@ p {
   color: var(--stone-600);
   font-weight: 400;
   font-size: 1rem;
+  line-height: 150%;
+  width: 100%;
 }
 
 li p {
