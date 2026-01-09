@@ -1,3 +1,6 @@
+/* Typefaces for 'Young Serif' and 'Outfit' provided from Front End Mentor 
+TrueType font faces with support for various weights and sizes */
+
 @font-face {
   font-family: "YoungSerif";
   src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf")
@@ -36,6 +39,9 @@ body {
   font-family: "Outfit", "Helvetica", sans-serif;
 }
 
+/* Styling rules for varying containers <article>, <section>, <aside> 
+for Mobile layout (368px) */
+
 article {
   padding: 40px 32px;
   display: flex;
@@ -58,6 +64,8 @@ aside {
   background-color: var(--rose-50);
   border-radius: 12px;
 }
+
+/* List styling for Mobile layout (368px) */
 
 ol,
 ul {
@@ -86,6 +94,8 @@ img {
   max-width: 100%;
 }
 
+/* Text styling for Mobile layout (368px) */
+
 h1 {
   color: var(--stone-900);
   font-family: "YoungSerif", "Times New Roman", serif;
@@ -102,7 +112,6 @@ h2 {
 
 h3 {
   color: var(--rose-800);
-  /* font-family: "Outfit", "Helvetica", sans-serif; */
   font-weight: 600;
   font-size: 1.25rem;
 }
@@ -123,6 +132,7 @@ table {
   width: 100%;
 }
 
+/* Table element styling for Mobile layout (368px) */
 table td {
   color: var(--stone-600);
   border-bottom: 1px solid var(--stone-150);
@@ -134,8 +144,8 @@ table td .bold {
 }
 
 hr {
-  height: 1px;
   color: var(--stone-150);
+  height: 1px;
 }
 
 /* Utility Classes and Additional Styling */
@@ -143,9 +153,8 @@ hr {
   font-weight: bold;
 }
 
-/* Component adjustments for Tablet layout */
+/* Component adjustments for Tablet layout (768px) */
 @media (min-width: 768px) {
-  /* Placeholder media query */
   body {
     background-color: var(--stone-100);
     padding: 128px 48px;
@@ -162,7 +171,7 @@ hr {
   }
 }
 
-/* Component adjustments for Desktop layout */
+/* Component adjustments for Desktop layout (1440px) */
 @media (min-width: 1440px) {
   /* Placeholder media query */
 }
