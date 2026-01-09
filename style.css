@@ -173,7 +173,7 @@ hr {
 }
 
 /* Component adjustments for Desktop layout (1440px) */
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
   /* Placeholder media query */
   article {
     max-width: 768px;
