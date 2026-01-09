@@ -119,6 +119,11 @@ li p {
   display: inline;
 }
 
+hr {
+  height: 1px;
+  color: var(--stone-150);
+}
+
 /* Utility Classes and Additional Styling */
 .bold {
   font-weight: bold;
