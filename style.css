@@ -1,5 +1,5 @@
 /* Typefaces for 'Young Serif' and 'Outfit' provided from Front End Mentor 
-TrueType font faces with support for various weights and sizes */
+TrueType font faces with support for various weights and sizes*/
 
 @font-face {
   font-family: "YoungSerif";
@@ -47,6 +47,7 @@ article {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin: 0 auto;
 }
 
 section {
@@ -174,4 +175,7 @@ hr {
 /* Component adjustments for Desktop layout (1440px) */
 @media (min-width: 1440px) {
   /* Placeholder media query */
+  article {
+    max-width: 768px;
+  }
 }
