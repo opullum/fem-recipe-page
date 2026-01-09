@@ -56,11 +56,28 @@ aside {
   gap: 16px;
 }
 
-aside ul {
+ol,
+ul {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+li {
+  line-height: 150%;
   padding-left: 8px;
 }
 
-section ul,
+li::marker {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+aside ul > li::marker {
+  color: var(--rose-800);
+}
+
 img {
   object-fit: cover;
   max-width: 100%;
@@ -91,6 +108,10 @@ p {
   color: var(--stone-600);
   font-weight: 400;
   font-size: 1rem;
+}
+
+li p {
+  display: inline;
 }
 
 /* Utility Classes and Additional Styling */
