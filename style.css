@@ -119,6 +119,20 @@ li p {
   display: inline;
 }
 
+table {
+  width: 100%;
+}
+
+table td {
+  color: var(--stone-600);
+  border-bottom: 1px solid var(--stone-150);
+  padding: 12px 32px;
+}
+
+table td .bold {
+  color: var(--brown-800);
+}
+
 hr {
   height: 1px;
   color: var(--stone-150);
@@ -130,7 +144,7 @@ hr {
 }
 
 /* Component adjustments for Tablet layout */
-@media (minth-width: 768px) {
+@media (min-width: 768px) {
   /* Placeholder media query */
 }
 
