@@ -14,6 +14,16 @@
 /* Base styling for elements is based on the Mobile (375px) layout provided in the
 initial Figma design file. Adherence to mobile-first practices for web layouts. */
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
 /* Component adjustments for Tablet layout */
 @media (minth-width: 768px) {
   /* Placeholder media query */
