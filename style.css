@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "YoungSerif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+}
+
 :root {
   /* Provided colors from Figma design file */
 
@@ -18,6 +30,10 @@ initial Figma design file. Adherence to mobile-first practices for web layouts. 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", "Helvetica", sans-serif;
 }
 
 article {
@@ -52,16 +68,29 @@ img {
 
 h1 {
   color: var(--stone-900);
-  font-size: 2.5rem;
+  font-family: "YoungSerif", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 2.25rem;
 }
 
 h2 {
   color: var(--brown-800);
+  font-family: "YoungSerif", "Times New Roman", serif;
+  font-weight: 400;
   font-size: 1.75rem;
+}
+
+h3 {
+  color: var(--rose-800);
+  /* font-family: "Outfit", "Helvetica", sans-serif; */
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 p {
   color: var(--stone-600);
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /* Utility Classes and Additional Styling */
