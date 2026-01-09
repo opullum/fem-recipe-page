@@ -146,6 +146,20 @@ hr {
 /* Component adjustments for Tablet layout */
 @media (min-width: 768px) {
   /* Placeholder media query */
+  body {
+    background-color: var(--stone-100);
+    padding: 128px 48px;
+  }
+
+  article {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 40px;
+  }
+
+  img {
+    border-radius: 12px;
+  }
 }
 
 /* Component adjustments for Desktop layout */
