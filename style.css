@@ -19,6 +19,10 @@ body {
   padding: 0;
 }
 
+article {
+  padding: 32px;
+}
+
 img {
   object-fit: cover;
   max-width: 100%;
