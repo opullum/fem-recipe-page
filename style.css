@@ -17,6 +17,7 @@ initial Figma design file. Adherence to mobile-first practices for web layouts. 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 article {
@@ -32,6 +33,18 @@ section {
   gap: 24px;
 }
 
+aside {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+aside ul {
+  padding-left: 8px;
+}
+
+section ul,
 img {
   object-fit: cover;
   max-width: 100%;
@@ -49,6 +62,11 @@ h2 {
 
 p {
   color: var(--stone-600);
+}
+
+/* Utility Classes and Additional Styling */
+.bold {
+  font-weight: bold;
 }
 
 /* Component adjustments for Tablet layout */
